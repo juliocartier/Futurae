@@ -1,212 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futurae | Consultoria e Tecnologia</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import '@material/web/all.js';
+    </script>
 
-    <title>Futurae Tecnologia e Consultaria</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="md-dark">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="slick/slick.css"/>
-    <link rel="stylesheet" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
-  </head>
-  <body>
-    <main class="container-fluid">
-      <div class="row">
-          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
-            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="tm-sidebar-sticky">
-              <div class="tm-brand-box">
-                <div class="tm-double-border-1">
-                  <div class="tm-double-border-2 text-center">
-                    <!-- <h1 class="tm-brand text-uppercase">Futurae Tecnologia & Engenharia</h1> -->
-                     <img src="img/futurae_logo.PNG" alt="Futurae Logo" class="tm-brand-logo">
-                  </div>
-                </div>
-              </div>
-
-              <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
-                <li class="nav-item">
-                  <a href="#intro" class="nav-link active">
-                    <span class="d-inline-block mr-3">Introdução</span>
-                    <span class="d-inline-block tm-white-rect"></span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#about" class="nav-link">
-                    <span class="d-inline-block mr-3">Sobre</span>
-                    <span class="d-inline-block tm-white-rect"></span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="#work" class="nav-link">
-                    <span class="d-inline-block mr-3">Portófio</span>
-                    <span class="d-inline-block tm-white-rect"></span>
-                  </a>
-                </li>
-              </ul>
-              <ul class="nav flex-row tm-social-links">
-                <li class="nav-item">
-                  <a href="https://api.whatsapp.com/send?phone=558521807757&text=Olá!%20Gostaria%20de%20saber%20mais" class="nav-link tm-social-link">
-                    <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-              </ul>
-              <footer class="text-center text-white small">
-                <p class="mb--0 mb-2">CNPJ: 62.466.714/0001-47</p>
-                <p class="mb--0 mb-2">Futurae Tecnologia e Consultoria LTDA</p>
-              </footer>
-            </div>
-          </nav>
-
-          <main role="main" class="ml-sm-auto col-12">
-            <div
-              class="parallax-window"
-              data-parallax="scroll"
-              data-image-src="img/imagem_inicial.jpg">
-              <!--<div class="tm-section-wrap">
-                <section id="intro" class="tm-section">
-                    <div class="tm-bg-white-transparent tm-intro">
-                        <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Inove o seu negócio</h2>
-                        <p class="text-write">
-                          This box alpha 30 percent. Left sidebar is a sticky element.
-                          Right side Contents are scrolling up and down. This background has a
-                          parallax effect.
-                        </p>
-                        <p class="mb-0 tm-color-gray">
-                          Dream Pulse is a Bootstrap 4.3.1 template designed for your websites. You can modify this layout as you like.
-                        </p>
-                    </div>
-                </section>
-            </div>-->
-          </div>
-
-          <div class="tm-section-wrap bg-white">
-            <section id="about" class="row tm-section">
-              <div class="col-xl-6">
-                <div class="tm-section-half">
-                    <!-- Ícone principal -->
-                    <div><i class="fas fa-6x fa-laptop-code mb-5 tm-section-icon"></i></div>
-                    <h2 class="tm-section-title tm-color-primary mb-5">Sobre a Futurae Tecnologia</h2>
-                    <p class="mb-4">
-                      A <strong>Futurae Tecnologia e Consultoria</strong> é especializada em desenvolver soluções completas para empresas, unindo tecnologia e estratégia para potencializar resultados.
-                    </p>
-                    <ul class="mb-4" style="list-style: none; padding-left: 0;">
-                      <li class="mb-2"><i class="fas fa-server tm-color-primary mr-2"></i> <strong>Desenvolvimento Back-end e Front-end:</strong> Sistemas robustos e interfaces intuitivas para web e mobile.</li>
-                      <li class="mb-2"><i class="fas fa-mobile-alt tm-color-primary mr-2"></i> <strong>Aplicativos corporativos:</strong> Apps que conectam equipe, clientes e processos.</li>
-                      <li class="mb-2"><i class="fas fa-chart-line tm-color-primary mr-2"></i> <strong>Dashboards em Power BI:</strong> Insights interativos e personalizáveis para decisões estratégicas.</li>
-                      <li class="mb-2"><i class="fas fa-database tm-color-primary mr-2"></i> <strong>Análise de Dados:</strong> Processamento e interpretação de informações para relatórios inteligentes.</li>
-                    </ul>
-                    <p>
-                      Nosso objetivo é entregar soluções tecnológicas completas, de alta qualidade, que ajudam sua empresa a crescer, otimizar processos e tomar decisões com segurança e agilidade.
-                    </p>
-                </div>
-              </div>
-              <div class="col-xl-6">
-                <div class="tm-section-half">
-                    <!-- Ícone principal -->
-                    <div><i class="far fa-6x fa-building mb-5 tm-section-icon"></i></div>
-                    <h2 class="tm-section-title tm-color-primary mb-5">Serviços</h2>
-                    <ul class="mb-4" style="list-style: none; padding-left: 0;">
-                      <li class="mb-3"><i class="fas fa-server tm-color-primary mr-2"></i> <strong>Desenvolvimento Web (Front-end & Back-end):</strong> Sistemas web responsivos, modernos e robustos.</li>
-                      <li class="mb-3"><i class="fas fa-mobile-alt tm-color-primary mr-2"></i> <strong>Aplicativos Mobile:</strong> Apps Android que conectam clientes e equipes.</li>
-                      <li class="mb-3"><i class="fas fa-chart-line tm-color-primary mr-2"></i> <strong>Dashboards e Power BI:</strong> Painéis interativos para análise de KPIs e dados estratégicos.</li>
-                      <li class="mb-3"><i class="fas fa-database tm-color-primary mr-2"></i> <strong>Análise de Dados e Inteligência Empresarial:</strong> Insights a partir de dados e relatórios inteligentes.</li>
-                      <li class="mb-3"><i class="fas fa-lightbulb tm-color-primary mr-2"></i> <strong>Consultoria em Tecnologia e Processos:</strong> Otimização de processos, arquitetura de sistemas e integração de soluções.</li>
-                      <li class="mb-3"><i class="fas fa-cogs tm-color-primary mr-2"></i> <strong>Automação e Integração de Sistemas:</strong> Integração de sistemas internos e automação de tarefas repetitivas.</li>
-                    </ul>
-
-                    <p>
-                      Entregamos soluções completas e personalizadas, ajudando sua empresa a crescer, otimizar processos e tomar decisões estratégicas com tecnologia de ponta.
-                    </p>
-                </div>
-              </div>
-            </section>
-          </div>
-
-          <div class="tm-section-wrap bg-white">
-            <section id="work" class="row tm-section">
-              <div class="col-12">
-                <div class="w-100 tm-double-border-1 tm-border-gray">
-                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
-                      <div class="tm-gallery-wrap">
-                          <h2 class="tm-color-primary tm-section-title mb-4 ml-2">Portfólio</h2>
-                          <div class="tm-gallery">
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/appagendae.webp" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2><span>Agendae</span></h2>
-                                  <p>Um aplicativo para a rotina escolar do estudante.</p>
-                                  <a href="img/gallery/appagendae.webp">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <!--<div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/02.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/02.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/03.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/03.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/04.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/04.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>-->
-
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </section>
-          </div>
-
-
-          <div class="tm-contact-form-wrap text-center">
-            <a href="https://api.whatsapp.com/send?phone=558521807757&text=Olá!%20Gostaria%20de%20saber%20mais"
-              target="_blank"
-              style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;
-                      background-color: #25D366; color: white; border-radius: 50%;
-                      width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;
-                      box-shadow: 0 4px 6px rgba(0,0,0,0.3); text-decoration: none; font-size: 30px;">
-              <i class="fab fa-whatsapp"></i>
-            </a>
-          </div>
-        </main>
+  <header class="app-bar">
+      <div class="logo-container">
+          <md-icon-button id="menu-button" class="mobile-only">
+              <md-icon>menu</md-icon>
+          </md-icon-button>
+          <img src="img/futurae_logo_correta.png" alt="Futurae Logo" class="main-logo">
       </div>
-    </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/templatemo-scripts.js"></script>
-  </body>
+      
+      <nav class="nav-links desktop-only">
+          <a href="#intro" class="link active">Início</a>
+          <a href="#solutions" class="link">Soluções</a>
+          <a href="#work" class="link">Portfólio</a>
+          <md-filled-button href="https://wa.me/558521807757" target="_blank" class="contact-btn">
+              Contato
+          </md-filled-button>
+      </nav>
+  </header>
+
+  <dialog id="nav-drawer" class="md-drawer">
+      <div class="drawer-content">
+          <div class="drawer-header">
+              <h2 class="title-small">Menu</h2>
+              <md-icon-button id="close-drawer"><md-icon>close</md-icon></md-icon-button>
+          </div>
+          <md-list>
+              <md-list-item interactive href="#intro"><md-icon slot="start">home</md-icon>Início</md-list-item>
+              <md-list-item interactive href="#solutions"><md-icon slot="start">lightbulb</md-icon>Soluções</md-list-item>
+              <md-list-item interactive href="#work"><md-icon slot="start">work</md-icon>Portfólio</md-list-item>
+          </md-list>
+      </div>
+  </dialog>
+
+  <main>
+      <section id="intro" class="hero">
+          <div class="hero-inner">
+              <h1 class="headline-large">Tecnologia que molda o amanhã.</h1>
+              <p class="body-large">Especialistas em desenvolvimento sob medida, educação tecnológica e automação inteligente.</p>
+              <div class="actions">
+                  <md-filled-tonal-button href="#solutions">
+                      Ver Soluções
+                      <md-icon slot="icon">arrow_downward</md-icon>
+                  </md-filled-tonal-button>
+              </div>
+          </div>
+      </section>
+
+      <section id="solutions" class="section">
+          <div class="container">
+              <h2 class="headline-medium mb-5">Soluções que transformam</h2>
+              
+              <div class="m3-solution-card mb-4">
+                  <div class="solution-header">
+                      <div class="icon-box">
+                          <span class="material-symbols-outlined">visibility</span>
+                      </div>
+                      <div class="text-box">
+                          <h3 class="title-large">Sistema de Acesso LPR Inteligente</h3>
+                          <p class="body-medium">Reconhecimento automático de placas para Resorts e Empresas.</p>
+                      </div>
+                  </div>
+                  <div class="solution-details">
+                      <md-chip-set>
+                          <md-assist-chip label="Visão Computacional"></md-assist-chip>
+                          <md-assist-chip label="Python/OpenCV"></md-assist-chip>
+                          <md-assist-chip label="Controle de Fluxo"></md-assist-chip>
+                      </md-chip-set>
+                      <p class="body-small mt-3">Automatize entradas e saídas com 100% de precisão, integrando câmeras e cancelas físicas.</p>
+                      <md-text-button href="https://wa.me/558521807757">Solicitar Demo</md-text-button>
+                  </div>
+              </div>
+
+              <div class="m3-solution-card">
+                  <div class="solution-header">
+                      <div class="icon-box">
+                          <span class="material-symbols-outlined">terminal</span>
+                      </div>
+                      <div class="text-box">
+                          <h3 class="title-large">Desenvolvimento Fullstack</h3>
+                          <p class="body-medium">Sistemas escaláveis e robustos para o seu negócio.</p>
+                      </div>
+                  </div>
+                  <div class="solution-details">
+                      <p class="body-small">Da concepção à infraestrutura, entregamos APIs e interfaces modernas utilizando as melhores práticas do mercado.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="work" class="section">
+          <h2 class="headline-medium mb-5">Nossos Cases de Sucesso</h2>
+          <div class="m3-portfolio-grid">
+              
+              <div class="portfolio-card">
+                <div class="card-image elevus-bg">
+                    <div class="card-badge">Plataforma Própria</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="title-large">Elevus Academy</h3>
+                    <p class="body-medium">LMS escalável, focado em alta disponibilidade e experiência do aluno.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">NodeJS</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">AngularJS</span>
+                    </div>
+                    <md-text-button href="https://www.elevusacademy.com.br/" target="_blank">Ver detalhes</md-text-button>
+                </div>
+              </div>
+
+              <!-- <div class="portfolio-card">
+                  <div class="card-image lpr-bg">
+                      <div class="card-badge">Engenharia e IA</div>
+                  </div>
+                  <div class="card-content">
+                      <h3 class="title-large">Automação LPR</h3>
+                      <p class="body-medium">Reconhecimento de placas em tempo real para controle de acesso restrito.</p>
+                      <div class="tech-stack">
+                          <span class="tech-tag">Python</span>
+                          <span class="tech-tag">OpenCV</span>
+                          <span class="tech-tag">IoT</span>
+                      </div>
+                      <md-text-button href="#">Ver detalhes</md-text-button>
+                  </div>
+              </div> -->
+
+              <div class="portfolio-card">
+                  <div class="card-image agendae-bg"></div>
+                  <div class="card-content">
+                      <h3 class="title-large">Agendae Mobile</h3>
+                      <p class="body-medium">Aplicativo de produtividade escolar para conexão aluno-academia.</p>
+                      <div class="tech-stack">
+                          <span class="tech-tag">Mobile</span>
+                          <span class="tech-tag">API REST</span>
+                      </div>
+                      <md-text-button href="https://play.google.com/store/apps/details?id=rotina.escolar&pcampaignid=web_share">Ver detalhes</md-text-button>
+                  </div>
+              </div>
+
+          </div>
+      </section>
+  </main>
+
+  <md-fab variant="primary" class="fab" onclick="window.open('https://wa.me/558521807757')">
+      <md-icon slot="icon">chat</md-icon>
+  </md-fab>
+
+  <script>
+      const menuBtn = document.getElementById('menu-button');
+      const closeBtn = document.getElementById('close-drawer');
+      const drawer = document.getElementById('nav-drawer');
+
+      menuBtn.onclick = () => drawer.showModal();
+      closeBtn.onclick = () => drawer.close();
+      
+      // Fecha ao clicar fora ou em link
+      drawer.onclick = (e) => { if(e.target === drawer) drawer.close(); };
+      drawer.querySelectorAll('md-list-item').forEach(item => {
+          item.onclick = () => drawer.close();
+      });
+  </script>
+
+</body>
 </html>
